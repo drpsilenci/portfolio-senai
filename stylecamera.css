@@ -1,0 +1,94 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+}   
+.ajuste{
+    width: 100%;
+    height: 100%;
+}
+
+.container article {
+  /*background-color:rgb(108, 108, 108);*/
+  margin: 5px;
+  padding: 5px;
+  font-size: 30px;
+}
+
+header{
+    padding:20px; /* Adiciona espaçamento interno: 50px em cima/baixo e 20px nas laterais */
+    text-align: center; /* Centraliza o texto dentro da seção */
+    font-size: 32px; /* Define o tamanho da fonte do título */
+    margin-bottom: 0px; /* Adiciona espaço abaixo do título para separar dos boxes */
+      
+    }
+
+.fotos{
+    height: 291px;
+    width:219px ;
+}
+
+.titulo{
+        color:black;
+    }
+
+
+.banner1 {
+        margin-top:  50px;
+        background-color: #222;
+        width: 100%;
+        display:flex;                              
+        align-items: center;                      
+        justify-content:center;  
+        color: white;    
+        height: 70px;    
+        font-size: medium;
+    }
+ .banner {
+    background-color: #222;
+    width: 100%;
+    display:flex;                              
+    align-items: center;                      
+    justify-content:center;  
+    color: white;    
+    height: 150px;    
+    font-size: xx-large;          
+    }
+
+ 
+    .borda1{
+        border: 1px solid white;
+    }
+     .borda2{
+        border: 2px solid rgb(228, 6, 6);
+    }
+
+   .box1 {
+        height: 350px;
+        border: 3px solid black;    
+        border-radius: 20px;
+        margin-bottom: 20px;
+        width: 97%;
+        display: flex;
+         flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-top: 25px;
+        padding-left: 35px;
+        box-shadow: black 0px 0px 10px;
+        background-color: white;
+   } 
